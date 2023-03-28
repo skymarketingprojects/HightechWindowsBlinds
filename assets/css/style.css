@@ -8128,3 +8128,21 @@ del {
  width: 95%;
  height: 80%;
 }
+
+
+.main_icon{
+  height: 5rem;
+}
+
+@media (max-width:1000px) {
+  .main_icon{
+    height: 4rem;
+    /* width: 2rem; */
+  }
+}
+@media (max-width:722px) {
+  .main_icon{
+    height: 3rem;
+    /* width: 2rem; */
+  }
+}
