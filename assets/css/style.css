@@ -3368,7 +3368,7 @@ hero-btn {
 
 /* line 160, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -23px;
+  top: -48px !important;
 }
 
 /* line 163, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -8153,7 +8153,7 @@ del {
 
 .cust-img{
   border: 1px solid black;
-  transform: translate(0px,-30px);
+  transform: translate(0px,-40px);
   border-radius: 50%;
   width:8rem;
 }
