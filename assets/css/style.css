@@ -505,8 +505,8 @@ hr {
 }
 
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
-.btn {
-  background: #ff1313;
+#contact-btn {
+  background: #ff1313 !important;
   padding: 27px 44px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
@@ -528,6 +528,10 @@ hr {
   border: 0;
   overflow: hidden;
   margin: 0;
+}
+
+.btn:hover{
+  color: var(--bs-btn-hover-color) !important;
 }
 
 /* line 271, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
@@ -2750,7 +2754,7 @@ hero-btn {
 
 /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .section-padding30 {
-  padding-top: 195px;
+  padding-top: 130px;
   padding-bottom: 170px;
 }
 
@@ -8146,3 +8150,23 @@ del {
     /* width: 2rem; */
   }
 }
+
+.cust-img{
+  border: 1px solid black;
+  transform: translate(0px,-30px);
+  border-radius: 50%;
+  width:8rem;
+}
+
+#product-row a{
+  text-decoration: none;
+}
+ #navigation a{
+  text-decoration: none;
+ }
+
+ .carousel-img{
+  height: 42vh !important;
+ }
+
+
